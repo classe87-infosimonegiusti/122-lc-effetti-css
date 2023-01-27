@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    width: 100%;
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+.foto2 {
+    filter: brightness(2) contrast(0.5);
+}
+
+.sepia {
+    filter: sepia(1);
+}
+
+.invertedColor {
+    filter: invert(1);
+}

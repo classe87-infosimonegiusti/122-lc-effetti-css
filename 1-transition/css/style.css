@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    transition: background-color 1s, transform 2s, border-radius 5s, border 0.5s, width 3s;
+}
+
+.square:hover {
+    background-color: blue;
+    border: solid 10px purple;
+}
+
+.square:active {
+    border-radius: 50%;
+    transform: rotate(90deg);
+    width: 500px;
+}
